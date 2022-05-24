@@ -1,0 +1,224 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*custom style*/
+body{
+    font-family: 'Karla', sans-serif;
+    line-height: 1.5;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.brandname{
+    color: #2c2640;
+    font-size: 45px;
+    /* font-weight: 600; */
+    font-family: 'DM Serif Display', serif;
+}
+.nav{
+    text-decoration: none;
+    color: #7c7b80;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 15px;
+}
+.plansbtn{
+    padding: 19px 0;
+    background-color: #fff;
+    border:1px solid #7c7b80 ;
+    border-radius: 5%/15%;
+    margin-left: 20px;
+}
+.s1{
+    background-color: #2c2640;
+    padding: 70px 0;
+    color: white;
+    height: 470px;
+    margin-bottom: 220px;
+}
+.topline{
+    width: 170px;
+    margin: 0;
+}
+h1{
+    font-size: 80px;
+    font-family:'DM Serif Display', serif;
+    font-weight: 400;
+    align-self: flex-start;
+    width:70%;
+}
+.flexchild{
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.s1para{
+    font-size: 22px;
+    margin: 20px 0;
+}
+.s1btn{
+    margin: 20px 0 ;
+    align-self: flex-start;
+    background-color: #2c2640;
+    border:1px solid #fff ;
+}
+.s1nav{
+    color: #fff;
+}
+.image1{
+    width: 40%;
+    height: 40%;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 60px;
+    font-family:'DM Serif Display', serif;
+    font-weight: 500;
+}
+.s2btn{
+    margin: 20px 0 ;
+    align-self: flex-start;
+    background-color: #fff;
+    border:1px solid #7c7b80 ;
+}
+.s2nav{
+    color: #7c7b80;
+}
+.parent{
+    margin: auto 0;
+}
+.s2para{
+    font-size: 30px;
+    margin: 20px 0;
+    color: #7c7b80;
+}
+.s3{
+    margin-top: 110px;
+}
+.s3line{
+    color:#c7c7c9;
+    border:1px solid;
+    width: 170px;
+    margin: 20px 0;
+}
+.fa-circle-user{
+    font-size: 50px;
+    color: rgb(135, 186, 252);
+    margin: 15px;
+}
+h3{
+    font-size: 35px;
+    font-family:'DM Serif Display', serif;
+}
+.s3para{
+    font-size: 22px;
+    margin: 20px 0;
+    color: #7c7b80;
+}
+.flexchilds3{
+    width: 29%;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bottombanner{
+    background-color: #2c2640;
+    color: #fff;
+    padding: 80px;
+}
+.bottomheading{
+    font-size: 60px;
+    font-family:'DM Serif Display', serif;
+    width: 39%;
+}
+.s3btn{
+    align-self: center;
+    background-color: #2c2640;
+    border:1px solid #fff ;
+    padding: 25px 19px;
+    border-radius: 3%/9%;
+}
+.navs3{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 15px;
+}
+.fa-brands{
+    font-size: 40px;
+    color: #7c7b80;
+    margin-left: 40px;
+    align-self: center;
+}
+.parents3{
+    align-items: center;
+    padding: 0;
+    margin-top: 80px;
+    line-height: 1;
+}
+.flex1{
+    margin: 25px 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav2{
+    font-size: 25px;
+    font-weight: 500;
+}
+footer{
+    background-color: #2c2640;
+    font-size: 25px;
+    text-align: center;
+    color: #c7c7c9;
+    padding: 20px;
+}
